@@ -1,0 +1,218 @@
+.footer {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #000000;
+    color: white;
+}
+
+
+.footer .footer_widget{
+    color: #C7C7C7;
+}
+
+#email{
+    border: 1px solid rgb(218, 50, 50);
+    width: 50%;
+
+}
+
+
+.footer_widget ul li {
+    color: #D5D5D5;
+    font-size: 13px;
+    line-height: 28px;
+    font-weight: 400;
+    list-style-type: none;
+    margin-left: -32px;
+    
+}
+
+
+
+.footer_title{
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+
+.footer a{
+    color: none;
+    text-decoration: none;
+}
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.small{
+    border: 1px solid  rgb(218, 50, 50);;
+    /* background: #615CFD; */
+    background:  rgb(218, 50, 50);
+    padding: 12px 40px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+   
+  
+}
+
+
+.facebook{
+        width: 38px !important;
+        height: 38px !important;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 38px !important;
+        display: inline-block;
+        background: #3B5797;
+        color: #fff;
+        line-height: 40px !important;
+    }
+
+    .google{
+        width: 38px !important;
+        height: 38px !important;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 38px !important;
+        display: inline-block;
+        background: #DB4337;
+        color: #C7C7C7;
+        line-height: 40px !important;
+    }
+
+    .twitter{
+        width: 38px !important;
+        height: 38px !important;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 38px !important;
+        display: inline-block;
+        background: #00ACED;
+        color: #C7C7C7;
+        line-height: 40px !important;
+    }
+
+    .youtube{
+        width: 38px !important;
+        height: 38px !important;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 38px !important;
+        display: inline-block;
+        background: #BB0000;
+        color: #fff;
+        line-height: 40px !important;
+    }
+
+    .insta{
+        width: 38px !important;
+        height: 38px !important;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 38px !important;
+        display: inline-block;
+        background: #AC907A;
+        color: #c7c7c7c7;
+        line-height: 40px !important;
+    }
+
+
+    .socail_links ul li{
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+    .footer_links ul li{
+        display: inline-block;
+        list-style: none;
+        /* padding-left: 30px; */
+        margin-right: 20px;
+        position: relative;
+        left: -5%;
+    }
+/* Phoone */
+
+    @media (max-width: 480px) {
+       
+        .insta{
+            width: 38px !important;
+            height: 38px !important;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 38px !important;
+            display: inline-block;
+            background: salmon;
+            color: #c7c7c7c7;
+            line-height: 40px !important;
+        }
+
+        .footer_title{
+            text-align: center;
+        }
+
+        .small{
+            max-width: 100%;
+        }
+
+        #email{
+            width: 100%;
+        }
+
+        .footer_widget ul li {
+            text-align: center;
+        }
+
+        .socail_links ul li {
+            position: relative;
+            left: 10%;
+        }
+
+        .footer_links ul li{
+            display: inline-block;
+            list-style: none;
+           
+        }
+
+        .copy_right{
+            text-align: center;
+            font-size: 14px;
+            font-weight: 500;
+        }
+      }
+    
+    @media (max-width: 769px—1024px) {
+        .text {
+          font-size: 16px;
+        }
+      }
+    
+      @media only screen and (max-width: 600px) and (min-width: 400px)  {
+          
+      }
