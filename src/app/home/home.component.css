@@ -327,10 +327,14 @@ div.scrollmenu{
 
 #cart{
     width: 50%;
-    margin-left: 24%;
-    border: 1px solid  rgb(218, 50, 50);;
+   
+    border-bottom: 2px solid white;
     /* background: #615CFD; */
-    background:  rgb(218, 50, 50);
+ background: black;
+ color: white;
+    padding: 10px;
+    margin-bottom: 30%;
+
 }
 
 }
