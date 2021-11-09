@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 /* .words {
    
@@ -129,7 +131,31 @@ a {
     transform: translate(-50%, -50%); */
 }
 
+#oneway{
+  width: 20%;
+}
 
+#onewayy{
+  width: 30%;
+}
+
+.music{
+  margin-bottom: 30%;
+}
+
+
+.music li{
+ list-style-type: none;
+ display: inline;
+ padding-right: 30px;
+ justify-content: center;
+ margin-top: 10px;
+}
+
+.music ul{
+  position: relative;
+  left: 10%;
+}
 
 .youtube_video_area{
     margin-top: 200px;
@@ -176,6 +202,7 @@ a {
 
 .go{
     max-width: 100%;
+    margin-top: 20px;
 }
 
 div.scrollmenu{
@@ -295,6 +322,7 @@ div.scrollmenu{
     text-align: center;
     font-size: 15px;
     font-family: monospace;
+    color: red;
 }
 
 #cart{
