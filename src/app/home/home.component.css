@@ -161,6 +161,7 @@ a {
   color: rgb(218, 50, 50);  
   font-family: 'Bebas Neue', cursive; 
   font-size: 50px; 
+  text-align: center;
 }
 
 
@@ -206,6 +207,7 @@ a {
   background: red;
   width: 100%;
   margin-top: 40px;
+  height: 100vh;
 }
    
 .join{
@@ -390,5 +392,21 @@ div.scrollmenu{
     margin-bottom: 30%;
 
 }
+
+#cartt{
+  border-bottom: 2px solid white;
+  /* background: #615CFD; */
+  background: transparent;
+ color: white;
+  padding: 10px;
+  margin-top: 20%;
+
+
+}
+
+.copy_right{
+  font-size: 30px;
+}
+
 
 }
