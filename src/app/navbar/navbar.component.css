@@ -7,7 +7,7 @@
 }
 
 .nav-link{
-    font-family: 'Pangolin', cursive;
+    font-family: 'Bebas Neue', cursive;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -17,9 +17,10 @@
     }
 
     #navbarSupportedContent{
-        height: 60%;
+        height: 40%;
         width: 92%;
-        font-family: Montserrat;
+        /* font-family: Montserrat; */
+        font-family: 'Bebas Neue', cursive;
         
     font-size: 16px;     
    background-image: linear-gradient(to right,#1c1e1f,#586670,#df8f7c,#f1444d);
@@ -60,14 +61,15 @@
     #navbarSupportedContent a{
     color: white;
     padding: 15px;
+    font-size: 22px;
     
     }
 
     #navbarSupportedContent a:hover {
-        color: goldenrod;
+        color: rgb(218, 32, 32);
        
         padding: 20px; 
-        font-size: 19px;       
+        font-size: 40px;       
     }
         
     }
