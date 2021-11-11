@@ -2,6 +2,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+.join{
+  font-size: 82px;
+  padding: 10px;
+}
+
+
+.joinp{
+  font-size: 27px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.placad{
+  background: red;
+  width: 100%;
+  margin-top: 40px;
+  height: 257vh;
+}
+.cart{
+     border-bottom: 2px solid white;
+      background: red;
+      color: white;
+      border-radius: 10px;
+      /* width: 60%; */
+      padding: 14px;
+
+}
+
+#shirt{
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+  /* color: red; */
+  color: rgb(218, 50, 50);
+  margin-top: 30px;
+}
+
+.spec{
+  background-color:  rgb(218, 50, 50);
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 #scroll{
   position: absolute;
@@ -10,6 +57,13 @@
   opacity: 0.5;
 }
 
+/* .placad p{
+  background: red;
+  width: 100%;
+  margin-top: 40px;
+  height: 100vh;
+} */
+   
 /* .words {
    
     font-size: 0;
@@ -140,20 +194,21 @@ a {
 
 #oneways{
   width: 10%;
-  position: relative;
-    left: 20%;
+    position: relative;
+    left: 49%;
+    left: 62%;
 }
 
 #oneway{
   width: 10%;
   position: relative;
-    left: 10%;
+    left: 22%;
 }
 
 #onewayy{
-  width: 30%;
-  position: relative ;
-  left: 15%;
+  width: 18%;
+  position: relative;
+  left: 21%;
 }
 
 .contactt{
@@ -203,17 +258,8 @@ a {
     /* margin-bottom: 13%; */
 
 
-.placad{
-  background: red;
-  width: 100%;
-  margin-top: 40px;
-  height: 100vh;
-}
    
-.join{
-  font-size: 46px;
-  padding: 10px;
-}
+
 
 .video {
     margin-top: -13%;
@@ -236,7 +282,7 @@ a {
     
 
 .go{
-    max-width: 100%;
+    max-width: 50%;
     margin-top: 20px;
 }
 
@@ -260,6 +306,23 @@ div.scrollmenu{
  /* Phone  */
 
 @media (max-width: 480px) {
+
+  .join{
+    font-size: 46px;
+    padding: 10px;
+  }
+   
+.placad{
+  background: red;
+  width: 100%;
+  margin-top: 40px;
+  height: 100vh;
+} 
+
+.go{
+  max-width: 100%;
+  margin-top: 20px;
+}
 
   #oneways{
     width: 20%;
@@ -413,3 +476,5 @@ div.scrollmenu{
 
 
 }
+
+

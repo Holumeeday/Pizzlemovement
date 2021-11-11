@@ -1,5 +1,5 @@
 .one{
-    width: 40%;
+    width: 20%;
 }
 
 .navbar-brand{
@@ -10,11 +10,39 @@
     font-family: 'Bebas Neue', cursive;
 }
 
+
+.bg-dark {
+    --bs-bg-opacity: 0;
+    background-color: rgba(33,37,41,var(--bs-bg-opacity))!important;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
+
+
+
+#navbarSupportedContent a{
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+    
+    }
+
+    #navbarSupportedContent a:hover {
+        background: rgb(218, 50, 50);
+       
+        padding: 20px; 
+        font-size: 40px;       
+    }
+
+
+
+
 @media only screen and (max-width: 1200px) {
 
     .one{
         width: 40%;
     }
+
+ 
 
     #navbarSupportedContent{
         height: 40%;
