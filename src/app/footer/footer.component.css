@@ -13,7 +13,7 @@
 }
 
 #email{
-    border: 1px solid rgb(218, 50, 50);
+    border: 1px solid #D30000;
     width: 50%;
 
 }
@@ -58,9 +58,9 @@ ul {
 }
 
 .small{
-    border: 1px solid  rgb(218, 50, 50);;
+    border: 1px solid  #D30000;
     /* background: #615CFD; */
-    background:  rgb(218, 50, 50);
+    background:  #D30000;
     padding: 12px 40px;
     display: inline-block;
     font-size: 15px;
