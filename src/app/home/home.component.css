@@ -2,6 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+div.scrollmenu{
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu{
+  overflow: auto;
+  white-space: nowrap;
+  margin-top: 20px;
+}
+
+#tiko{
+  width: 50%;
+}
+
+#comming{
+  width: 30%;
+}
+
 .join{
   font-size: 82px;
   padding: 10px;
@@ -16,7 +35,7 @@
   background:#D30000;
   width: 100%;
   margin-top: 40px;
-  height: 252vh;
+  height: 355vh;
 }
 
 
@@ -298,7 +317,7 @@ div.scrollmenu{
   background: #D30000;
   width: 100%;
   margin-top: 40px;
-  height: 100vh;
+  height: 105vh;
 } 
 
 .go{
@@ -423,7 +442,7 @@ div.scrollmenu{
 #shirt{
     padding: 10px;
     text-align: center;
-    font-size: 15px;
+    font-size: 21px;
     font-family: monospace;
     /* color: red; */
     color: #D30000;
